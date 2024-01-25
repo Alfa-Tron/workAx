@@ -14,7 +14,7 @@ import java.util.List;
 
 public class Main {
     private static final int borderSize = 10;
-    private static final int SCALE = 120; // 120 пикселей = 1 микрометр
+    private static final double SCALE = 120.0/50.0; // 120 пикселей = 1 микрометр
 
     public static void main(String[] args) {
         // Загрузка библиотеки OpenCV
